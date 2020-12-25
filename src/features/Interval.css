@@ -1,0 +1,24 @@
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.form .form__group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  margin: 0 var(--spacing-large);
+}
+
+.form .form__label {
+  font-weight: 700;
+  margin-bottom: var(--spacing-small);
+}
+
+.form .form__input {
+  border: 1px solid var(--dark-gray);
+  border-radius: var(--radius);
+  padding: var(--heading-padding);
+}

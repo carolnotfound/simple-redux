@@ -1,0 +1,26 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  margin: var(--spacing-medium);
+}
+
+.card__title {
+  flex: 1;
+
+  background-color: var(--dark-yellow);
+  color: var(--dark-gray);
+
+  margin: 0;
+  padding: var(--heading-padding);
+  text-align: center;
+}
+
+.card__content {
+  background-color: var(--light-yellow);
+  color: var(--dark-gray);
+
+  padding: var(--content-padding);
+  text-align: center;
+}
